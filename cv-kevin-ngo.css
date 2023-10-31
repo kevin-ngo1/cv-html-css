@@ -1,0 +1,146 @@
+#moi {
+    height: 350x;
+    background: white;
+}
+
+
+.alignedegrade{
+    background-image: linear-gradient(to bottom right, rgb(64, 51, 247), black);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: right;
+    font-size: 5.0em;
+}
+
+.augmente{
+    font-size: 2.0em;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+#moi h1{
+    margin: 0%;
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black;
+    transition: all 0.3s ease-in-out;
+    background-image: linear-gradient(to bottom right, white,#41B6C8);
+}
+
+section:hover {
+    transform: scale(0.9,1.02);
+}
+
+.degrade-horizontale {
+    background-image: linear-gradient(to bottom right, blue, black);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+}
+
+.color {
+    font-family: red;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.image-floue{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+    width:100%;
+    height:auto;
+}
+
+
+#moi {
+    background-image: url('images/SFI_banner.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+body{
+    background-color: rgb(39, 35, 35);
+}
+
+/* bouton GitHub et CV */
+
+button {
+    display: inline-block;
+    background-color: #3190A6;
+    border-radius: 10px;
+    border: 4px double #cccccc;
+    color: #eeeeee;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    width: 200px;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: rgb(4, 0, 255);
+}
+
+/* Mettre les images avec de l'ombre */
+
+.img {
+    box-shadow: 4px 4px 8px gray;
+    width: 200px;
+}
+
+/* Section emplacement */
+
+.section-gauche {
+    float: left; 
+    width: 50%; 
+    padding: 50px;
+}
+
+.section-centre {
+    width: 25;
+    padding: 50px;
+    text-align: center;
+}
+
+.section-centre-seul{
+    width: 25%;
+    margin-left: 500px;
+    padding: 50px;
+    text-align: center;
+    display: block;
+}
+
+.section-droite {
+    width: 35%;
+    padding: 30px;
+}
+
+.section-gauche, .section-centre, .section-droite {
+    display: inline-block;
+    width: 25%;
+    margin: 1%;
+    vertical-align: top;
+}
+
+.section-centre-seule{
+    width: 650px;
+    margin-left: 350px;
+    padding: 50px;
+    text-align: center;
+    display: block;
+}
